@@ -45,6 +45,7 @@ MIN_HOLDING_PERIOD = 20
 EMAIL_FROM = os.environ.get("EMAIL_FROM")
 EMAIL_TO = os.environ.get("EMAIL_TO")
 EMAIL_APP_PASSWORD = os.environ.get("EMAIL_APP_PASSWORD")
+EMAIL_SUBJECT = "📊 QQQ Daily Report - Morning Update"
 # === End Configuration ===
 
 # State Tracking
