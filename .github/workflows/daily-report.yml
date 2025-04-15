@@ -25,7 +25,4 @@ jobs:
     - name: Run QQQ script
       run: |
         python max_value_mail.py
-      env:
-        EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-        EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
+      env
